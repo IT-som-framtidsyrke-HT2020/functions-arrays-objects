@@ -229,7 +229,7 @@ console.log(friends.indexOf('Janne'));
 // if u do this for an element that is not there you wel get -1
 console.log(friends.indexOf('Helena'));
 
-// es6 feature includes
+// ES6 feature includes
 // will return true if the element is in the array and false if not
 console.log(friends.includes('Janne'));
 // this is testing with strict equality which means it does not do type coersion
@@ -306,5 +306,10 @@ if (helena[interestedIn]) {
 // so instead of loggin undefined we log our custom sentence when a prop doesnt exist
 // so now we actually handled an error
 */
+
+function setUrl() {
+    const git = "New url";
+    return git;
+}
 
 
