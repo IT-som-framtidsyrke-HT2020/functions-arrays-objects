@@ -307,9 +307,5 @@ if (helena[interestedIn]) {
 // so now we actually handled an error
 */
 
-function setUrl() {
-    const git = "New url";
-    return git;
-}
 
 
